@@ -3,7 +3,9 @@ import './search-panel.css';
 
 const SearchPanel = () => {
   const searchText = 'Type here to earch';
-  return <input placeholder={searchText}/>
+  return <input
+    className="form-control search-input"
+    placeholder={searchText}/>
 };
 
 export default SearchPanel;
